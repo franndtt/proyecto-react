@@ -1,19 +1,19 @@
-
+import { NavLink } from "react-router-dom"
 
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg ">
   <div className="container-fluid ">
-    <a className="navbar-brand" href="#"> </a>
+    <NavLink className="navbar-brand" to="#"> </NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link text-light" href="#">NOSOTROS</a>
-        <a className="nav-link text-light" href="#">PRODUCTOS</a>
-        <a className="nav-link text-light" href="#">SUCURSALES</a>
-        <a className="nav-link text-light" href="#">CONTACTO</a>
+      <NavLink className="nav-link text-light" activeClassName="active" to={"/"}> HOME </NavLink>
+<NavLink className="nav-link text-light" activeClassName="active" to={"/category/productos"}> PRODUCTOS </NavLink>
+<NavLink className="nav-link text-light" activeClassName="active" to={"/category/cereales-legumbres"}> CEREALES Y LEGUMBRES </NavLink>
+<NavLink className="nav-link text-light" activeClassName="active" to={"/category/frutos-secos"}>FRUTOS SECOS </NavLink>
         
         
       </div>

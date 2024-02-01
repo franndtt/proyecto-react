@@ -1,0 +1,9 @@
+ 
+
+[
+    {"id":1, "title":"Avena x 500 g", "image":"https://cdn.newgarden.com.ar/media/catalog/product/cache/dda7253a1a2f6711745de410175d10f8/a/v/avena-arrollada-fina-x-500.jpg" , "price": "$1600", "categoria": "cereales-legumbres", "descripcion": "Hojuelas de avena precocida, lista para consumir. No requiere de cocción." },
+    {"id":2, "title":"Copos de maiz x 500g", "image":"https://cdn.newgarden.com.ar/media/catalog/product/cache/dda7253a1a2f6711745de410175d10f8/c/o/copos-de-maiz1.jpg" , "price": "$2100", "categoria": "cereales-legumbres", "descripcion": "Cereal de desayuno. De textura crocante. Sin T.A.C.C." },
+    {"id":3, "title":"Almendras peleas x 400g", "image":"https://cdn.newgarden.com.ar/media/catalog/product/cache/dda7253a1a2f6711745de410175d10f8/a/l/almendra-pelada.comun-4-op2_1_.jpg" , "price": "$5700", "categoria": "frutos-secos", "descripcion": "Almendra pelada que puede variar su textura, sabor, color y tamaño, generalmente es de piel aspera y rugosa y de sabor agradable." },
+    {"id":4, "title":"Mani pelado x 400kg", "image":"https://cdn.newgarden.com.ar/media/catalog/product/cache/dda7253a1a2f6711745de410175d10f8/m/a/mani-repelado-salado-y-tostado_1_1.jpg" , "price": "$6100", "categoria": "frutos-secos", "descripcion": "Maní Repelado Salado Y Tostado" }
+]
+
