@@ -47,14 +47,20 @@ const Cart = () => {
                                         <td className="align-middle">{product.quantity}</td>
                                         <td className="align-middle">${product.quantity * product.price}</td>
                                         <td className="text-end align-middle"><a href="#" onClick={() => { removeItem(product.id) }}><img src={trash} alt="Eliminar Producto" title="Eliminar Producto" className="text-end" /></a></td>
+        
                                     </tr>
                                 )}
+
                                 <tr>
-                                    <td colSpan={4} className="text-center alling-middle">Total</td>
-                                    <td className="text-star">${SumTotalProductos()}</td>
-                                    
-                                    
+                                <td colSpan={4} className="text-start">Envio</td>
+                                <td className="text-success">Gratis</td>
                                 </tr>
+                                <tr>
+                                    <td colSpan={4} className="text-start">Total</td>
+                                    <td className="">${SumTotalProductos()}</td>
+                                </tr>
+
+
                             </tbody>
                         </table>
                         <Link to="/Checkout" className="btn btn-dark text-end">Checkout</Link>

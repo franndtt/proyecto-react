@@ -98,9 +98,14 @@ const Checkout = () => {
                                                 <td className="align-middle">${product.quantity * product.price}</td>
                                             </tr>
                                         )}
+
+                                         <tr>
+                                            <td colSpan={4} className="text-center alling-middle">Envio</td>
+                                            <td className="text-success">Gratis</td>
+                                         </tr>
                                         <tr>
                                             <td colSpan={4} className="text-center alling-middle">Total</td>
-                                            <td className="text-star">${SumTotalProductos()}</td>
+                                            <td className="">${SumTotalProductos()}</td>
                                         </tr>
                                     </tbody>
                                 </table>
